@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:ChatDevice:1</DeviceType>
+		<ModelName>Chat 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Chat</FriendlyName>
+		<UDN>uuid:ChatDevice1.0</UDN>
+		
+		<HTTPServerPort>5630</HTTPServerPort>
+		<SSDPUnicastPort>5631</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

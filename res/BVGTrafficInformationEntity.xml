@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/bvg</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:BVGTrafficInformationDevice:1</DeviceType>
+		<ModelName>BVGTrafficInformation 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>BVG Traffic Information</FriendlyName>
+		<UDN>uuid:BVGTrafficInformation1.0</UDN>
+		<HTTPServerPort>5640</HTTPServerPort>
+		<SSDPUnicastPort>5641</SSDPUnicastPort>
+		
+	</Device>	
+</StartupConfiguration>

@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/localization/gps</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:GPSDevice:1</DeviceType>
+		<ModelName>GPSDevice 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>SE GPSDevice</FriendlyName>
+		<UDN>uuid:GPSDevice1.0</UDN>
+				
+		<HTTPServerPort>8102</HTTPServerPort>
+		<SSDPUnicastPort>8103</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

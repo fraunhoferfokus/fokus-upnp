@@ -1,0 +1,6 @@
+<StartupConfiguration>
+  <MulticastAddress>239.255.255.200</MulticastAddress>
+  <DiscoveryMulticastPort>2000</DiscoveryMulticastPort>
+  <EventMulticastPort>2300</EventMulticastPort>
+  <StartKeyboardThread>TRUE</StartKeyboardThread>
+</StartupConfiguration>

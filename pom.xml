@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.fraunhofer.fokus</groupId>
+  <artifactId>fokus-upnp</artifactId>
+  <packaging>pom</packaging>
+  <version>1.1</version>
+  <name>Frauhofer FOKUS UPnP Stack</name>
+  <description>UPnP-Stack is used to create and control UPnP-devices.</description>
+  <organization>
+  	<name>Fraunhofer FOKUS</name>
+	<url>http://www.fokus.fraunhofer.de</url>
+   </organization>
+   <inceptionYear>2008</inceptionYear>
+   <developers>
+	<developer>
+		<name>Alexander König</name>
+		<roles>
+			<role>Developer</role>
+		</roles>
+	</developer>
+    </developers>
+    <licenses>
+	<license>
+		<name>GNU Lesser General Public License</name>
+		<url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+		<distribution>repo</distribution>
+	</license>
+    </licenses>
+  <dependencyManagement>
+	<dependencies>
+		<dependency>
+   	 		<groupId>log4j</groupId>
+     			<artifactId>log4j</artifactId>
+    			<version>1.2.15</version>
+   			<exclusions>
+        			<exclusion>
+           			 	<groupId>javax.jms</groupId>
+           			 	<artifactId>jms</artifactId>
+        			</exclusion>
+       				<exclusion>
+            				<groupId>com.sun.jdmk</groupId>
+           				<artifactId>jmxtools</artifactId>
+        			</exclusion>
+        			<exclusion>
+            				<groupId>com.sun.jmx</groupId>
+            				<artifactId>jmxri</artifactId>
+        			</exclusion>
+    			</exclusions>
+		</dependency>
+		<dependency>
+	    		<groupId>org.rxtx</groupId>
+	    		<artifactId>rxtx</artifactId>
+	    		<version>2.1.7</version>
+		</dependency>
+		<dependency>
+  			<groupId>com.toedter</groupId>
+  			<artifactId>jcalendar</artifactId>
+  			<version>1.3.2</version>
+		</dependency>
+		<dependency>
+      			<groupId>de.fraunhofer.fokus</groupId>
+			<artifactId>upnp-utils</artifactId>
+      			<version>1.1</version>
+		</dependency>
+		<dependency>
+	      		<groupId>de.fraunhofer.fokus</groupId>
+			<artifactId>upnp-core</artifactId>
+	      		<version>1.1</version>
+		</dependency>
+		<dependency>
+	      		<groupId>de.fraunhofer.fokus</groupId>
+			<artifactId>upnp-gateways</artifactId>
+	      		<version>1.1</version>
+		</dependency>
+
+	    	<dependency>
+	      		<groupId>de.fraunhofer.fokus</groupId>
+			<artifactId>upnp-examples</artifactId>
+	      		<version>1.1</version>
+		</dependency>
+	</dependencies>
+  </dependencyManagement>
+  <modules>
+    <module>upnp-utils</module>
+    <module>upnp-core</module>
+    <module>upnp-gateways</module>
+    <module>upnp-examples</module>
+    <module>upnp-gui</module>
+  </modules>
+</project>

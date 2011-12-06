@@ -1,0 +1,11 @@
+<StartupConfiguration>
+  <Device>
+    <DeviceType>urn:schemas-upnp-org:device:DimmableLight:1</DeviceType>
+    <ModelName>DimmableLight 1.0</ModelName>
+    <Manufacturer>Fraunhofer FOKUS</Manufacturer>
+    <FriendlyName>VirtualLight</FriendlyName>
+    <UDN>uuid:DimmableLight1.0</UDN>        
+    <HTTPServerPort>5714</HTTPServerPort>
+    <SSDPUnicastPort>5715</SSDPUnicastPort>
+  </Device>   
+</StartupConfiguration>

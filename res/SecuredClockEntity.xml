@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core_security/examples/stress</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:Clock:1</DeviceType>
+		<ModelName>SecuredClock 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>SecuredClock</FriendlyName>
+		<UDN>uuid:SecuredClock1.0</UDN>
+				
+		<HTTPServerPort>6200</HTTPServerPort>
+		<SSDPUnicastPort>6201</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

@@ -1,0 +1,12 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/control_point</WorkingDirectory>
+	<SSDPMulticastAddress>239.255.255.248</SSDPMulticastAddress>
+	<SSDPMulticastPort>1898</SSDPMulticastPort>
+	<ControlPoint>
+		<FriendlyName>ControlPoint(1898)</FriendlyName>
+		<EventCallbackServerPort>11052</EventCallbackServerPort>
+		<SSDPUnicastPort>11053</SSDPUnicastPort>	
+		<DisableDeviceCache>TRUE</DisableDeviceCache>	
+		<DiscoveryOnly>FALSE</DiscoveryOnly>	
+	</ControlPoint>		
+</StartupConfiguration>

@@ -1,0 +1,15 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/stress</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:Clock:1</DeviceType>
+		<ModelName>SE 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Clock</FriendlyName>
+		<UDN>uuid:Clock1.0</UDN>
+				
+		<HTTPServerPort>6002</HTTPServerPort>
+		<SSDPUnicastPort>6003</SSDPUnicastPort>
+		<UseMulticastEvents>TRUE</UseMulticastEvents>
+		<MulticastEventSocketAddress>239.255.255.240:1800</MulticastEventSocketAddress>
+	</Device>		
+</StartupConfiguration>

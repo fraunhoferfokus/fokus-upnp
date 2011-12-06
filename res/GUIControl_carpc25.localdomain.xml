@@ -1,0 +1,46 @@
+<StartupConfiguration>
+	<UseSecurityConsole>YES</UseSecurityConsole>
+	<WorkingDirectory>core/examples/gui_control_point</WorkingDirectory>	
+	<SSDPMulticastAddress>239.255.255.250</SSDPMulticastAddress>
+	<SSDPMulticastPort>1900</SSDPMulticastPort>
+	<EntityID>YellowCar</EntityID>
+  <IgnoreIPAddress>192.0.25.1</IgnoreIPAddress>
+  <IgnoreIPAddress>192.0.25.129</IgnoreIPAddress>
+  <IgnoreIPAddress>192.168.98.25</IgnoreIPAddress>
+  <IgnoreIPAddress>192.0.26.1</IgnoreIPAddress>
+  <IgnoreIPAddress>192.0.26.129</IgnoreIPAddress>
+  <IgnoreIPAddress>192.168.98.26</IgnoreIPAddress>
+	<ControlPoint>
+		<FriendlyName>GUIControl.SC.CP</FriendlyName>
+		<EventCallbackServerPort>11030</EventCallbackServerPort>
+		<EventCallbackUDPServerPort>11031</EventCallbackUDPServerPort>
+		<SSDPUnicastPort>11032</SSDPUnicastPort>		
+		<MulticastEventServerPort>1800</MulticastEventServerPort>
+		<ControlPointKeyFile>cp_keys</ControlPointKeyFile>
+	</ControlPoint>
+	<Device id ="SecurityConsoleDevice">
+		<FriendlyName>GUIControl.SC</FriendlyName>	
+		<DeviceType>urn:schemas-upnp-org:device:SecurityConsoleDevice:1</DeviceType>
+		<ModelName>SecurityConsole 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<UDN>uuid:SecurityConsole1.0</UDN>
+		<HTTPServerPort>11033</HTTPServerPort>
+		<SSDPUnicastPort>11034</SSDPUnicastPort>
+						
+		<DeviceKeyFile>sc_keys</DeviceKeyFile>
+	</Device>
+	<Device id ="ImageRendererDevice">
+		<FriendlyName>GUIControl.ImageRenderer</FriendlyName>
+		<DeviceType>urn:schemas-upnp-org:device:MediaRenderer:1</DeviceType>
+		<ModelName>ImageRenderer 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<UDN>uuid:InternalMediaRenderer1.0</UDN>
+		<WorkingDirectory>core_av/examples/renderer/images</WorkingDirectory>
+		<HTTPServerPort>11035</HTTPServerPort>
+		<SSDPUnicastPort>11036</SSDPUnicastPort>
+		<SourceProtocolInfo></SourceProtocolInfo>
+		<GUI>false</GUI>
+		<WebServerDirectory>core_av/examples/renderer/images/resources</WebServerDirectory>		
+		<SinkProtocolInfo>http-get:*:image/jpg:*,http-get:*:image/jpeg:*,http-get:*:image/png:*,http-get:*:image/gif:*</SinkProtocolInfo>
+	</Device>
+</StartupConfiguration>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion>
+<device>
+<deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+<friendlyName>Internal ImageRenderer</friendlyName>
+<manufacturer>Fraunhofer FOKUS</manufacturer>
+<manufacturerURL>http://www.fraunhofer.de</manufacturerURL>
+<modelDescription>SmartEnvironments ImageRendererDevice 1.0</modelDescription>
+<modelName>ImageRenderer 1.0</modelName>
+<UDN>uuid:cabb94a9-f130-5129-9c41-f370c50b116e</UDN>
+<iconList>
+<icon>
+<mimetype>image/gif</mimetype>
+<width>32</width>
+<height>32</height>
+<depth>8</depth>
+<url>/image_icon.gif</url>
+</icon>
+</iconList>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:AVTransport1.0</serviceId>
+<SCPDURL>/AVTransport_1/AVTransport1.0/description.xml</SCPDURL>
+<controlURL>/AVTransport_1/AVTransport1.0/control/</controlURL>
+<eventSubURL>/AVTransport_1/AVTransport1.0/eventSub/</eventSubURL>
+<X_ETAG>NLyvw8c0OuUKzXh96uyqBp1ReWQ=</X_ETAG>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+<serviceId>urn:schemas-upnp-org:serviceId:RenderingControl1.0</serviceId>
+<SCPDURL>/RenderingControl_1/RenderingControl1.0/description.xml</SCPDURL>
+<controlURL>/RenderingControl_1/RenderingControl1.0/control/</controlURL>
+<eventSubURL>/RenderingControl_1/RenderingControl1.0/eventSub/</eventSubURL>
+<X_ETAG>+/F6xynCl8xNI7Wiscct1AHHIcg=</X_ETAG>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:ConnectionManager1.0</serviceId>
+<SCPDURL>/ConnectionManager_1/ConnectionManager1.0/description.xml</SCPDURL>
+<controlURL>/ConnectionManager_1/ConnectionManager1.0/control/</controlURL>
+<eventSubURL>/ConnectionManager_1/ConnectionManager1.0/eventSub/</eventSubURL>
+<X_ETAG>w4Fw1rgFPtgdqasLFlm+vvzlsgg=</X_ETAG>
+</service>
+<service>
+<serviceType>urn:schemas-fokus-fraunhofer-de:service:TranslationService:1</serviceType>
+<serviceId>urn:fokus-fraunhofer-de:serviceId:TranslationService1.0</serviceId>
+<SCPDURL>/TranslationService_1/TranslationService1.0/description.xml</SCPDURL>
+<controlURL>/TranslationService_1/TranslationService1.0/control/</controlURL>
+<eventSubURL>/TranslationService_1/TranslationService1.0/eventSub/</eventSubURL>
+<X_ETAG>lOhe6loZ9Fy7u7A4hhspa2a3dyw=</X_ETAG>
+</service>
+</serviceList>
+<presentationURL>/</presentationURL>
+</device>
+</root>

@@ -1,0 +1,7 @@
+Clock:Uhr
+ClockService:Uhr
+ClockService1.0:Uhr
+Seconds:Sekunden des Tages
+GetSeconds:Lies Sekunden
+GetTime:Lies Zeit
+Time:Zeit

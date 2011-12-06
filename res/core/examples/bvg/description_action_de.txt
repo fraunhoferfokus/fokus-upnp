@@ -1,0 +1,1 @@
+getStopInfo:Ermittelt die Abfahrtszeiten für eine bestimmte Haltestelle

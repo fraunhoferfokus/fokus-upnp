@@ -1,0 +1,3 @@
+Owner:Alexander König
+Location:Berlin, Deutschland
+GPS_Location:-13.3142;52.5258

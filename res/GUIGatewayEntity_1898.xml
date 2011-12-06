@@ -1,0 +1,39 @@
+<StartupConfiguration>
+	<WorkingDirectory>gateway/examples</WorkingDirectory>
+	<SSDPMulticastAddress>239.255.255.248</SSDPMulticastAddress>
+	<SSDPMulticastPort>1898</SSDPMulticastPort>
+	<ControlPoint>
+		<FriendlyName>GUIGateway.CP</FriendlyName>
+		<EventCallbackServerPort>13000</EventCallbackServerPort>
+		<EventCallbackUDPServerPort>13001</EventCallbackUDPServerPort>
+		<SSDPUnicastPort>13002</SSDPUnicastPort>		
+	</ControlPoint>		
+	<Gateway id="InetAddressManagement">	
+		<FriendlyName>GUIGateway.GW</FriendlyName>
+		<GatewayServerPort>13003</GatewayServerPort>
+	</Gateway>
+	<Gateway id="TCPTunnelServerManagement">	
+		<TCPTunnelServerPort>10000</TCPTunnelServerPort>
+		<TCPTunnelInetAddress>192.168.200.200</TCPTunnelInetAddress>
+		<FriendlyName>TCPTunnelServer.GW</FriendlyName>
+		<GatewayServerPort>13003</GatewayServerPort>
+	</Gateway>	
+	<Gateway id="TCPTunnelClientManagement">
+		<TCPTunnelServerAddress>localhost</TCPTunnelServerAddress>
+		<TCPTunnelServerPort>10000</TCPTunnelServerPort>
+		<TCPTunnelInetAddress>192.168.200.200</TCPTunnelInetAddress>
+		<FriendlyName>TCPTunnelClient.GW</FriendlyName>	
+		<GatewayServerPort>13003</GatewayServerPort>
+	</Gateway>	
+	<Gateway id="DongleManagement">
+		<FriendlyName>Dongle.GW</FriendlyName>	
+		<GatewayServerPort>1500</GatewayServerPort>
+		<RemoteSSDPMulticastAddress>239.255.255.248</RemoteSSDPMulticastAddress>
+		<RemoteSSDPMulticastPort>1898</RemoteSSDPMulticastPort>		
+	</Gateway>	
+	<Gateway id="InternetManagement">
+		<GlobalIPAddress>akoenig.dyndns.org</GlobalIPAddress>
+		<FriendlyName>Internet.GW</FriendlyName>	
+		<GatewayServerPort>13002</GatewayServerPort>
+	</Gateway>	
+</StartupConfiguration>

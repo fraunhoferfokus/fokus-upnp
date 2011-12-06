@@ -1,0 +1,13 @@
+AirPressure:Luftdruck
+AirHumidity:Luftfeuchtigkeit
+Fair:Heiter
+Internet Weather:Internet-Wetter
+Mostly Cloudy:Überwiegend bewölkt
+Partly Cloudy:Stellenweise bewölkt
+Rain:Regen
+Sunset:Sonnenuntergang
+Sunrise:Sonnenaufgang
+TemperatureSensor1.0:Temperatur
+Weather:Wetter
+WeatherProvider:Wetterdienst
+WeatherService1.0:Wetterdienst

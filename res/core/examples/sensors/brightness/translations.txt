@@ -1,0 +1,8 @@
+BrightnessSensor1.0:Helligkeitssensor
+Brightness .:Helligkeit
+Brightness Sensor1.4006:Helligkeit Sensor1.4006
+Brightness Sensor2.4006:Helligkeit Sensor2.4006
+Brightness Sensor3.4007:Helligkeit Sensor3.4007
+Brightness Sensor4.4007:Helligkeit Sensor4.4007
+Brightness Sensor5.4007:Helligkeit Sensor5.4007
+Brightness Sensor6.4007:Helligkeit Sensor6.4007

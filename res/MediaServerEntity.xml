@@ -1,0 +1,16 @@
+<StartupConfiguration>
+	<WorkingDirectory>core_av/examples/server</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-upnp-org:device:MediaServer:1</DeviceType>
+		<ModelName>MediaServer 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>SE MediaServer</FriendlyName>
+		<UDN>uuid:MediaServer1.0</UDN>
+		<WebServerDirectory>core_av/examples/server/resources</WebServerDirectory>
+		
+		<HTTPServerPort>5860</HTTPServerPort>
+		<SSDPUnicastPort>5861</SSDPUnicastPort>
+		<SourceProtocolInfo>http-get:*:image/png:*,http-get:*:image/jpg:*,http-get:*:image/jpeg:*,http-get:*:audio/mpeg:*</SourceProtocolInfo>
+		<SinkProtocolInfo></SinkProtocolInfo>
+	</Device>		
+</StartupConfiguration>

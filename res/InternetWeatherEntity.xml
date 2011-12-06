@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/sensors/internet_weather</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:InternetWeatherDevice:1</DeviceType>
+		<ModelName>SE 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Weather</FriendlyName>
+		<UDN>uuid:InternetWeather1.0</UDN>
+				
+		<HTTPServerPort>5760</HTTPServerPort>
+		<SSDPUnicastPort>5761</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

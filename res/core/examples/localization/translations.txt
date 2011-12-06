@@ -1,0 +1,22 @@
+CurrentEventID:Aktuelle Ereignisnr.
+Date:Datum
+EventID:Ereignisnr.
+EventIDs:Ereignisnummern
+EventType:Ereignistyp
+GetLocation:Wo ist der Benutzer
+GetEvent:Lese Ereignis
+GetEventsForUser:Lese Ereignis für Benutzer
+GetEventsForLocation:Lese Ereignis für Ort
+Invalid eventID:Ungültige Ereignisnummer
+Invalid locationID:Ungültiger Ort
+Location:Ort
+Localization:Lokalisierung
+LocalizationService:Lokalisierung
+LocalizationService1.0:Lokalisierung
+LocationList:Bekannte Orte
+NumberReturned:Gefundene Anzahl
+RequestedCount:Gewünschte Anzahl
+StartingIndex:Start-Index
+Unknown userID:Unbekannter Benutzer
+User:Benutzer
+UserList:Bekannte Benutzer

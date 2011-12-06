@@ -1,0 +1,12 @@
+<StartupConfiguration>
+	<SSDPMulticastAddress>239.255.255.249</SSDPMulticastAddress>
+	<SSDPMulticastPort>1899</SSDPMulticastPort>
+	<ControlPoint>
+		<FriendlyName>ControlPoint(1899)</FriendlyName>
+		<EventCallbackServerPort>11050</EventCallbackServerPort>
+		<SSDPUnicastPort>11051</SSDPUnicastPort>	
+		<DisableDeviceCache>TRUE</DisableDeviceCache>	
+		<DiscoveryOnly>FALSE</DiscoveryOnly>
+		<AutomaticEventSubscription>TRUE</AutomaticEventSubscription>	
+	</ControlPoint>		
+</StartupConfiguration>

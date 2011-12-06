@@ -1,0 +1,11 @@
+<StartupConfiguration>
+  <Device>
+    <DeviceType>urn:schemas-fokus-fraunhofer-de:device:TemperatureSensorDevice:1</DeviceType>
+    <ModelName>TemperatureSensor 1.0</ModelName>
+    <Manufacturer>Fraunhofer FOKUS</Manufacturer>
+    <FriendlyName>VirtualTemperature</FriendlyName>
+    <UDN>uuid:TemperatureSensor1.0</UDN>        
+    <HTTPServerPort>5712</HTTPServerPort>
+    <SSDPUnicastPort>5713</SSDPUnicastPort>
+  </Device>   
+</StartupConfiguration>

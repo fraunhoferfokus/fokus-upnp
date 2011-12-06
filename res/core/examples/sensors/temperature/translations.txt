@@ -1,0 +1,10 @@
+TemperatureSensor1.0:Temperatursensor
+SE TemperatureSensor:Temperatur
+Temperature .:Temperatur
+Temperature Sensor1.4006:Temperatur Sensor1.4006
+Temperature Sensor2.4006:Temperatur Sensor2.4006
+Temperature Sensor3.4007:Temperatur Sensor3.4007
+Temperature Sensor4.4007:Temperatur Sensor4.4007
+Temperature Sensor5.4007:Temperatur Sensor5.4007
+Temperature Sensor6.4007:Temperatur Sensor6.4007
+

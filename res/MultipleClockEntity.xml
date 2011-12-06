@@ -1,0 +1,16 @@
+<StartupConfiguration>
+	<Count>1</Count>
+	<SSDPMulticastAddress>239.255.255.249</SSDPMulticastAddress>
+	<SSDPMulticastPort>1899</SSDPMulticastPort>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:Clock:1</DeviceType>
+		<ModelName>SE 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Clock</FriendlyName>
+		<UDN>uuid:Clock1.0</UDN>
+		<HTTPServerPort>6100</HTTPServerPort>
+		<SSDPUnicastPort>6101</SSDPUnicastPort>
+		<UseMulticastEvents>FALSE</UseMulticastEvents>
+		<MulticastEventSocketAddress>239.255.255.240:1800</MulticastEventSocketAddress>
+	</Device>		
+</StartupConfiguration>

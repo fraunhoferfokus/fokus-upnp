@@ -1,0 +1,16 @@
+<StartupConfiguration>
+	<WorkingDirectory>core_av/examples/renderer/images</WorkingDirectory>
+	<Device>
+		<FriendlyName>SE ImageRenderer</FriendlyName>
+		<DeviceType>urn:schemas-upnp-org:device:MediaRenderer:1</DeviceType>
+		<ModelName>ImageRenderer 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<UDN>uuid:ExternalMediaRenderer1.0</UDN>
+		<HTTPServerPort>5820</HTTPServerPort>
+		<SSDPUnicastPort>5821</SSDPUnicastPort>
+				
+		<WebServerDirectory>core_av/examples/renderer/images/resources</WebServerDirectory>
+		<SourceProtocolInfo></SourceProtocolInfo>
+		<SinkProtocolInfo>http-get:*:image/jpg:*,http-get:*:image/jpeg:*,http-get:*:image/png:*,http-get:*:image/gif:*</SinkProtocolInfo>
+	</Device>
+</StartupConfiguration>

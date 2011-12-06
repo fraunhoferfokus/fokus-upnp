@@ -1,0 +1,12 @@
+Der Dienst Verkehrsinfo ermöglicht den Abruf von aktuellen Abfahrtszeiten
+für Bus und Straßenbahn. 
+Die dazu nötige Haltestellennummer findet man unter 
+ 
+www.fahrinfo-berlin.de/realtime 
+ 
+nach Eingabe eines Stationsnamens in der Addresszeile kodiert bzw. an den
+Haltestellen selbst. Das Ergebnis ist ein XML-Fragment, welches 
+die nächsten Abfahrtszeiten enthält. 
+ 
+Abfahrtszeiten, die mit einem Stern gekennzeichnet sind, sind 
+unzuverlässige Prognosen.

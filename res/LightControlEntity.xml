@@ -1,0 +1,12 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/control_point</WorkingDirectory>
+	<LightName>VirtualLight</LightName>
+	<SensorName>VirtualTemperature</SensorName>
+	<ControlPoint>
+		<FriendlyName>LightControl</FriendlyName>
+		<EventCallbackServerPort>11070</EventCallbackServerPort>
+		<SSDPUnicastPort>11071</SSDPUnicastPort>	
+	    <!-- Optional -->
+	    <EventCallbackUDPServerPort>11072</EventCallbackUDPServerPort>
+	</ControlPoint>		
+</StartupConfiguration>

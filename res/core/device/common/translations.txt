@@ -1,0 +1,64 @@
+AddAttribute:Attribut hinzufügen
+AttributeService1.0:Attribute
+Chat:Chat
+ChatService1.0:Chat
+CurrentUser:Aktueller Benutzer
+DefaultMetadata:Standardmetadaten
+DefaultStorage:Standardspeicherart
+DescriptionService1.0:Gerätebeschreibung
+DeviceSecurity1.0:Gerätesicherheit
+false:Nein
+friendlyName:Gerätename
+GetAttributeList:Lese alle Attribute
+GetDefaultStorage:Lese Standardspeicherart
+GetDefaultMetadata:Lese Standardmetadaten
+GetDescription:Lese Beschreibung
+GetNameList:Lese Namensliste
+GetPropertyList:Lese Eigenschaftsliste
+GetTranslation:Lese Übersetzung
+GetTranslationList:Lese alle Übersetzungen
+GetUpdateID:Lese Update-ID
+GetUserList:Lese Benutzerliste
+GetValue:Lese Eigenschaftswert
+GPS_Location:GPS-Koordinaten
+Invalid args:Ungültige Parameter
+Language:Sprache
+LanguageIDList:Sprachliste
+List:Liste
+LoadDataFrom:Lade Daten von
+LoadData:Lade Daten
+Location:Ort
+manufacturer:Hersteller
+manufacturerURL:Herstellerwebseite
+Metadata:Metadaten
+modelDescription:Gerätebeschreibung
+modelName:Modellname
+modelNumber:Modellnummer
+modelURL:Modellwebseite
+NameList:Namensliste
+Owner:Besitzer
+Property:Eigenschaft
+PropertyList:Eigenschaftsliste
+RemoveAttribute:Attribut löschen
+Result:Ergebnis
+serialNumber:Seriennummer
+SetDefaultStorage:Setze Standardspeicherart
+SetUser:Setze Benutzer
+Signature Missing:Fehlende Signatur
+Source:Quelle
+Storage:Speicherart
+StoreData:Speichere Daten
+StoreDataTo:Speichere Daten nach
+Text:Text
+Translation:Übersetzung
+TranslationService1.0:Übersetzungen
+true:Ja
+UDN:Geräte-ID
+Unknown:Unbekannt
+UpdateID:Update-ID
+UsageService1.0:Benutzung
+User:Benutzer
+Users:Benutzer
+UserList:Benutzerliste
+Value:Wert
+

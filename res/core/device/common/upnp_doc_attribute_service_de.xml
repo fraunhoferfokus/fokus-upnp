@@ -1,0 +1,84 @@
+<upnpDocList>
+	<upnpDoc serviceType="urn:schemas-fokus-fraunhofer-de:service:AttributeService:1">
+		<actionList>
+			<action>
+				<name>GetNameList</name>
+				<description>Liefert eine Liste mit den Namen aller verfügbaren Attribute</description>
+				<argumentList>
+					<argument>
+						<name>List</name>
+						<description>Eine Liste der Namen aller verfügbaren Attribute</description>
+					</argument>
+				</argumentList>
+			</action>
+      <action>
+        <name>GetUpdateID</name>
+        <description>Liefert eine ID über alle Attribute</description>
+        <argumentList>
+          <argument>
+            <name>ID</name>
+            <description>Eine ID um Änderungen an den Attributnamen oder -werten zu verfolgen</description>
+          </argument>
+        </argumentList>
+      </action>
+			<action>
+				<name>GetAttributeList</name>
+				<description>Liefert ein XML Dokument mit Namen und Wert aller Attribute</description>
+				<argumentList>
+					<argument>
+						<name>Result</name>
+						<description>Ein XML Dokument mit Namen und Wert aller Attribute</description>
+					</argument>
+				</argumentList>
+			</action>
+      <action>
+        <name>AddAttribute</name>
+        <description>Ändert den Wert eines Attributes oder fügt es hinzu</description>
+        <argumentList>
+          <argument>
+            <name>Name</name>
+            <description>Der Name des Attributes</description>
+          </argument>
+          <argument>
+            <name>Value</name>
+            <description>Der Wert des Attributes</description>
+          </argument>
+        </argumentList>
+      </action>
+      <action>
+        <name>RemoveAttribute</name>
+        <description>Löscht ein Attribut</description>
+        <argumentList>
+          <argument>
+            <name>Name</name>
+            <description>Der Name des zu löschenden Attributes</description>
+          </argument>
+        </argumentList>
+      </action>
+      <action>
+        <name>GetValue</name>
+        <description>Liefert den Wert eines Attributes</description>
+        <argumentList>
+          <argument>
+            <name>Name</name>
+            <description>Der Name des Attributes</description>
+          </argument>
+          <argument>
+            <name>Value</name>
+            <description>Der Wert des Attributes</description>
+          </argument>
+        </argumentList>
+      </action>
+		</actionList>
+		<serviceStateTable>
+			<stateVariable>
+				<name>NameList</name>
+				<description>Eine Liste der Namen aller verfügbaren Attribute</description>
+			</stateVariable>
+      <stateVariable>
+        <name>UpdateID</name>
+        <description>Eine ID um Änderungen an den Attributnamen oder -werten zu verfolgen</description>
+      </stateVariable>
+		</serviceStateTable>
+	</upnpDoc>
+</upnpDocList>

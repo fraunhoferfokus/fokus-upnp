@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>gateway/examples/local</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:MulticastForwarderDevice:1</DeviceType>
+		<ModelName>MulticastForwarder 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>MulticastForwarder</FriendlyName>
+		<UDN>uuid:MulticastForwarder1.0</UDN>
+		
+		<HTTPServerPort>12040</HTTPServerPort>
+		<SSDPUnicastPort>12041</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

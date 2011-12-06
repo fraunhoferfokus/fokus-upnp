@@ -1,0 +1,4 @@
+Location:Berlin, Deutschland
+GPS_Location:-13.3142;52.5258
+Room:4006
+Owner:Alexander König

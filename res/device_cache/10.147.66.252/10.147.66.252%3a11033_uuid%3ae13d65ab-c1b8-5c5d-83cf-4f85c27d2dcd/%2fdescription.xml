@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion>
+<device>
+<deviceType>urn:schemas-upnp-org:device:SecurityConsoleDevice:1</deviceType>
+<friendlyName>GUIControl.SC</friendlyName>
+<manufacturer>Fraunhofer FOKUS</manufacturer>
+<modelName>SecurityConsole 1.0</modelName>
+<UDN>uuid:e13d65ab-c1b8-5c5d-83cf-4f85c27d2dcd</UDN>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:SecurityConsole:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:SecurityConsole1.0</serviceId>
+<SCPDURL>/SecurityConsole_1/SecurityConsole1.0/description.xml</SCPDURL>
+<controlURL>/SecurityConsole_1/SecurityConsole1.0/control/</controlURL>
+<eventSubURL>/SecurityConsole_1/SecurityConsole1.0/eventSub/</eventSubURL>
+<X_ETAG>lmSgeEKFU2Osyt3TQBOr8mLYlJ4=</X_ETAG>
+</service>
+</serviceList>
+<presentationURL>/</presentationURL>
+</device>
+</root>

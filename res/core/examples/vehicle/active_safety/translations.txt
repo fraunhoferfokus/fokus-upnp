@@ -1,0 +1,7 @@
+ActiveSafetyDevice:ActiveSafety
+ActiveSafetyService1.0:ActiveSafety
+ActiveSafety Accident:Warnhinweis Unfall
+ActiveSafety:Warnhinweis RSU
+ActiveSafetyService1.0:ActiveSafety
+GetActiveSafetyMessage:Lies ActiveSafety Nachricht
+MessageCount:Anzahl der Nachrichten

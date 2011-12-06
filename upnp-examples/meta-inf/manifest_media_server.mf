@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: de.fraunhofer.fokus.upnp.core_av.examples.server.file_based.DirectoryMediaServerEntity
+Class-Path: ../lib/ext/log4j/log4j-1.3alpha-8.jar ../lib/ext/log4j/log4j-optional-1.3alpha-8.jar ../lib/ext/log4j/commons-logging.jar ../lib/jars/UPnP_utils.jar ../lib/jars/UPnP_core.jar

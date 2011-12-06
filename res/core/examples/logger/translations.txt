@@ -1,0 +1,22 @@
+Logger:Datenlogger
+LoggerService1.0:Logdienst
+ActionName:Aktion
+ActiveTaskIDList:Aktive Loggings
+DeleteLogData:Lösche Logdaten
+Description:Beschreibung
+DeviceUDN:Geräte-UDN
+EndDate:Enddatum
+EndTime:Endzeit
+FinishedTaskIDList:Beendete Loggings
+GetActiveTaskIDList:Lese aktive Loggings
+GetCSVData:Lese Logdaten als CSV
+GetFinishedTaskIDList:Lese beendete Loggings
+GetXMLData:Lese Logdaten als XML
+IDList:ID-Liste
+InterruptActiveTask:Aktives Logging unterbrechen
+LogData:Logdaten
+OutArgument:Argument
+ServiceID:Dienst-ID
+StartLogging:Starte Logging
+StartDate:Startdatum
+StartTime:Startzeit

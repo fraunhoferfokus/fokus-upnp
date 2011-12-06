@@ -1,0 +1,16 @@
+<StartupConfiguration>
+	<WorkingDirectory>core_av/examples/server/file_based</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-upnp-org:device:MediaServer:1</DeviceType>
+		<ModelName>DirectoryMediaServer 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Atlas Media Server</FriendlyName>
+		<UDN>uuid:DirectoryMediaServer1.0</UDN>
+		<WebServerDirectory>d:/eigene dateien\eigene musik</WebServerDirectory>
+		
+		<HTTPServerPort>5800</HTTPServerPort>
+		<SSDPUnicastPort>5801</SSDPUnicastPort>
+		<SourceProtocolInfo>http-get:*:image/png:*,http-get:*:image/jpg:*,http-get:*:audio/mpeg:*</SourceProtocolInfo>
+		<SinkProtocolInfo></SinkProtocolInfo>
+	</Device>		
+</StartupConfiguration>

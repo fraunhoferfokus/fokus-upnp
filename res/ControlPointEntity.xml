@@ -1,0 +1,11 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/control_point</WorkingDirectory>
+	<ControlPoint>
+		<FriendlyName>ControlPoint(1900)</FriendlyName>
+		<EventCallbackServerPort>11050</EventCallbackServerPort>
+		<SSDPUnicastPort>11051</SSDPUnicastPort>	
+	    <EventCallbackUDPServerPort>11052</EventCallbackUDPServerPort>
+	    <!--  Optional -->
+		<DisableDeviceCache>TRUE</DisableDeviceCache>	
+	</ControlPoint>		
+</StartupConfiguration>

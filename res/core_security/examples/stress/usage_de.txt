@@ -1,0 +1,5 @@
+Der Dienst Uhr stellt das aktuelle Datum und die aktuelle Uhrzeit bereit.
+Die beiden möglichen Aktionen sind selbsterklärend.
+ 
+Der Dienst Gerätebeschreibung ermöglicht den Abruf zusätzlicher 
+Geräteinformationen wie z.B. Besitzer und Standort. 

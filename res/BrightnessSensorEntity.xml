@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/sensors/brightness</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:BrightnessSensorDevice:1</DeviceType>
+		<ModelName>BrightnessSensor 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Brightness</FriendlyName>
+		<UDN>uuid:BrightnessSensor1.0</UDN>
+				
+		<HTTPServerPort>8040</HTTPServerPort>
+		<SSDPUnicastPort>8041</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

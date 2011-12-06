@@ -1,0 +1,20 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/logger</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:Logger:1</DeviceType>
+		<ModelName>SE 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Logger</FriendlyName>
+		<UDN>uuid:Logger1.0</UDN>
+				
+		<HTTPServerPort>5500</HTTPServerPort>
+		<SSDPUnicastPort>5501</SSDPUnicastPort>
+		<LinuxLoggingDirectory>/net/u/sen/UPnP/loggerData</LinuxLoggingDirectory>
+		<WindowsLoggingDirectory></WindowsLoggingDirectory>
+	</Device>
+	<ControlPoint>
+		<FriendlyName>Logger.CP</FriendlyName>
+		<EventCallbackServerPort>5502</EventCallbackServerPort>
+		<SSDPUnicastPort>5504</SSDPUnicastPort>		
+	</ControlPoint>				
+</StartupConfiguration>

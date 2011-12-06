@@ -1,0 +1,40 @@
+<upnpDocList>
+	<upnpDoc
+		serviceType="urn:schemas-fokus-fraunhofer-de:service:ClockService:1">
+		<actionList>
+			<action>
+				<name>GetSeconds</name>
+				<description>
+					Gibt die Anzahl der Sekunden seit Mitternacht zurück
+				</description>
+				<argumentList>
+					<argument>
+						<name>Seconds</name>
+						<description>
+							Die seit Mitternacht verstrichenen Sekunden (0..86399)
+						</description>
+					</argument>
+				</argumentList>
+			</action>
+			<action>
+				<name>GetTime</name>
+				<description>Gibt die aktuelle Zeit zurück</description>
+				<argumentList>
+					<argument>
+						<name>Time</name>
+						<description>
+							Die aktuelle Zeit im UPnP Format (jjjj-mm-tt hh:mm:ss)
+						</description>
+					</argument>
+				</argumentList>
+			</action>
+		</actionList>
+		<serviceStateTable>
+			<stateVariable>
+				<name>Seconds</name>
+				<description>Die seit Mitternacht verstrichenen Sekunden (0..86399)</description>
+			</stateVariable>
+
+		</serviceStateTable>
+	</upnpDoc>
+</upnpDocList>

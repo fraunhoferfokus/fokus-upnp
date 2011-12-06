@@ -1,0 +1,32 @@
+<upnpDocList>
+	<upnpDoc serviceType="">
+		<actionList>
+			<action>
+				<name></name>
+				<description></description>
+				<argumentList>
+					<argument>
+						<name></name>
+						<description></description>
+					</argument>
+				</argumentList>
+			</action>
+			<action>
+				<name></name>
+				<description></description>
+				<argumentList>
+					<argument>
+						<name></name>
+						<description></description>
+					</argument>
+				</argumentList>
+			</action>
+		</actionList>
+		<serviceStateTable>
+			<stateVariable>
+				<name></name>
+				<description></description>
+			</stateVariable>
+		</serviceStateTable>
+	</upnpDoc>
+</upnpDocList>

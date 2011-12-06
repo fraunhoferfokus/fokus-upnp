@@ -1,0 +1,2 @@
+GUIControl.ImageRenderer:Interner Bildbetrachter
+SE ImageRenderer:Bildbetrachter

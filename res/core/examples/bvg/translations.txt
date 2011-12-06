@@ -1,0 +1,5 @@
+BVG Traffic Information:BVG Verkehrsinfo
+BVGTrafficInformation1.0:Verkehrsinfos
+GetStopInfo:Lese Verkehrsinfos
+StopID:Haltestellennummer
+Result:Ergebnis

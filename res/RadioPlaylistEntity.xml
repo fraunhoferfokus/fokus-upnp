@@ -1,0 +1,13 @@
+<StartupConfiguration>
+	<WorkingDirectory>core/examples/playlist</WorkingDirectory>
+	<Device>
+		<DeviceType>urn:schemas-fokus-fraunhofer-de:device:RadioPlaylistDevice:1</DeviceType>
+		<ModelName>SE 1.0</ModelName>
+		<Manufacturer>Fraunhofer FOKUS</Manufacturer>
+		<FriendlyName>Radio1 Playlist</FriendlyName>
+		<UDN>uuid:Radio1_Playlist1.0</UDN>
+				
+		<HTTPServerPort>5550</HTTPServerPort>
+		<SSDPUnicastPort>5551</SSDPUnicastPort>
+	</Device>		
+</StartupConfiguration>

@@ -1,0 +1,17 @@
+AVTransportID:SteuerungsID
+ConnectionID:VerbindungsID
+ConnectionIDs:VerbindungsIDs
+CurrentConnectionIDs:Aktuelle Verbindungen
+Direction:Richtung
+GetCurrentConnectionIDs:Zeige aktuelle Verbindungen
+GetCurrentConnectionInfo:Zeige Infos für Verbindung
+GetProtocolInfo:Zeige Protokolle
+My Home Server:Meine Medien zu Hause
+PeerConnectionManager:Gegenseite
+PeerConnectionID:ID der Gegenseite
+ProtocolInfo:Protokoll
+RcsID:AnzeigekontrollID
+Sink:Verstehe
+SinkProtocolInfo:Verstandene Protokolle
+Source:Sende
+SourceProtocolInfo:Sendbare Protokolle
